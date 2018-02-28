@@ -1,0 +1,122 @@
+Const int MAX=100;
+const CHAR t = 'a';
+int token[100];
+int num;
+int is_err;
+int x,y;
+
+char c;
+
+int f1(int i){
+    return(i);
+}
+
+char f2(){
+    char n;
+    n='a';
+    return(n);
+}
+
+void Do_F() {
+    int count;
+    int i;
+    int num1;
+    int flag;
+    char c1;
+    num1 = 0;
+    c1 = c;
+    num1 = 0;
+        if (c>= '0') {
+            if(c<='9'){
+                do
+                {
+                    token[count] = c-'0';
+                    num1 = num1 * 10 + token[count];
+                    count = count + 1;
+                    scanf(c);
+                    flag =0;
+                    if(c>='0'){
+                        if(c<='9'){
+                            flag = 1;
+                        }
+                    }
+                }while (flag)
+                num = num1;
+            }
+        }
+    
+}
+
+void Do_T() {
+    int x,y;
+    Do_F();
+    switch(c){
+        case'*':{
+            x = num;
+            scanf(c);
+            Do_F();
+            y = num;
+            num = x * y;
+        }
+        case'/': {
+            x = num;
+            scanf(c);
+            Do_F();
+            y = num;
+            num = x / y;
+        }
+    }
+
+}
+
+
+void Do_E() {
+    int x,y;
+    Do_T();
+    switch(c){ 
+        case'-':{
+            x = num;
+            scanf(c);
+            Do_T();
+            y = num;
+            num = x - y;
+        }
+        case'+':
+        {
+            x = num;
+            scanf(c);
+            Do_T();
+            y = num;
+            num = x + y;
+        }
+        case'q':
+            return;
+    }
+}
+
+
+void main() {
+    const int m = -1;
+    char n;
+    x=0;
+    is_err = 0;
+    y=0;
+    x=-x;
+    y=-y;
+    if(x>m){
+        x=0;
+    }
+    if(m<y){
+        y=0;
+    }
+    x=(x-1)*1+1;
+    n=f2();
+    x=f1(x);
+    y = f1(y);
+    scanf(c);
+    Do_E();
+    if(is_err == 0){
+        printf("result:",num);
+    }
+    ;
+}

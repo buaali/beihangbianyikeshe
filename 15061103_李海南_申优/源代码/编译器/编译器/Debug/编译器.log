@@ -1,0 +1,19 @@
+﻿  main.c
+d:\课程\编译技术\课设\编译器\编译器\main.c(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(22): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+d:\课程\编译技术\课设\编译器\编译器\main.c(27): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+  LINK : 没有找到 D:\课程\编译技术\课设\编译器\Debug\编译器.exe 或上一个增量链接没有生成它；正在执行完全链接
+  编译器.vcxproj -> D:\课程\编译技术\课设\编译器\Debug\编译器.exe
